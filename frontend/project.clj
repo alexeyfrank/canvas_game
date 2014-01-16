@@ -6,9 +6,8 @@
 
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2138"]
-                 [org.clojure/core.match "0.2.0"]
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
-                 [om "0.1.5"]]
+                 [cloact "0.1.0"]]
 
   ;; CLJ AND CLJS source code path
   ;; :source-paths ["src/clj" "src/cljs"]
@@ -33,7 +32,6 @@
 
                            ;; minimal JS optimization directive
                            :optimizations :whitespace
-
 
                            ;; generated JS code prettyfication
                            :pretty-print true}}]})
