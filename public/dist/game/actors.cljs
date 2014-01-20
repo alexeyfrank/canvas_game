@@ -54,6 +54,20 @@
       (.rotate @.view delta))))
 
 
+(defclass Bullet
+  (defn constructor [id layer]
+    (set! @.id id)
+    (set! @.view (create-bullet-view))
+    (.add layer @.view)
+    (set! @.animation (kinetic/animation @.draw layer))
+    (.start @.animation))
+
+  (defn update [data]
+    (set! @.data data))
+
+  (defn draw [frame]
+
+    ))
 
 
 

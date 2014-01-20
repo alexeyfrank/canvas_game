@@ -14,8 +14,8 @@ var items = null;if (arguments.length > 0) {
   items = cljs.core.array_seq(Array.prototype.slice.call(arguments, 0),0);} 
 return layer__delegate.call(this,items);};
 layer.cljs$lang$maxFixedArity = 0;
-layer.cljs$lang$applyTo = (function (arglist__8420){
-var items = cljs.core.seq(arglist__8420);
+layer.cljs$lang$applyTo = (function (arglist__8419){
+var items = cljs.core.seq(arglist__8419);
 return layer__delegate(items);
 });
 layer.cljs$core$IFn$_invoke$arity$variadic = layer__delegate;

@@ -40,24 +40,32 @@ handle_cast({ players_cast, PlayerId, [{<<"action">>, Action}, Data] } = Msg, St
   State2 = game_logic:player_action(State, PlayerId, Action, Data),
   {noreply, State2};
 
+handle_cast({ players_cast, PlayerId, [{<<"action">>, Action}] } = Msg, State) ->
+  ?debug_info(Msg),
+  State2 = game_logic:player_action(State, PlayerId, Action),
+  {noreply, State2};
+
 handle_cast(Msg, State) ->
   ?debug_info(Msg),
   {noreply, State}.
 
-handle_info(game_tick, #game{ players = Players, changed = IsStateChanged } = State) ->
+handle_info(game_tick, State) ->
   lager:debug("Game tick"),
+  #game{players = Players, changed = IsStateChanged} = NewState = game_logic:update_world(State),
+
   case IsStateChanged of
     true ->
       lager:debug("Game state changed"),
 
       %% TODO: Compute diff between old and new state and send it to client
-      SerializedState = game_serializer:serialize(State),
-      broadcast(State, { sync_state, SerializedState });
+      SerializedState = game_serializer:serialize(NewState),
+      broadcast(NewState, { sync_state, SerializedState });
     _ -> lager:debug("Game state not changed")
   end,
 
+  AlivePlayers = lists:filter(fun(#player{connected = Connected }) -> Connected end, Players),
   erlang:send_after(?INTERVAL, self(), game_tick),
-  {noreply, State#game{ changed = false }};
+  {noreply, NewState#game{ players = AlivePlayers, changed = false }};
 
 handle_info(Msg, State) ->
   ?debug_info({unprocessed_info_msg, Msg}),

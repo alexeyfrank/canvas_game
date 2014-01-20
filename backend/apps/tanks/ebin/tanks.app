@@ -1,0 +1,9 @@
+{application,tanks,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[tanks_sup]},
+              {applications,[kernel,stdlib,lager,gproc,cowboy,poolboy,bullet,
+                             jsx]},
+              {mod,{tanks_app,[]}},
+              {env,[]},
+              {modules,[game_handler,routes,tanks,tanks_app,tanks_sup]}]}.

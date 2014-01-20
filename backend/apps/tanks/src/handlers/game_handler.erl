@@ -15,7 +15,11 @@ init(_Transport, Req, _Opts, _Active) ->
   State = #state{player_id=PlayerId},
   {ok, Req1, State}.
 
+stream(<<"ping">>, Req, _State) ->
+  {ok, Req, _State};
+
 stream(Raw, Req, #state{player_id = PlayerId} = State) ->
+  lager:debug("Events: ~p", [Raw]),
   Events = jsx:decode(Raw),
   lists:foreach(fun(Event) ->
                     case Event of

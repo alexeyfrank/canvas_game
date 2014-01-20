@@ -13,6 +13,12 @@ serialize(#game{ players=Players }) ->
 
 %% Private
 
-serialize_player(#player{id = Id, shape = #rect{ x = X, y = Y, width=W, height=H, rotation = R}}) ->
-  [{id, Id}, {x, X}, {y, Y}, {width, W}, {height, H}, {rotation, R}].
+serialize_player(Player) ->
+  #player{id = Id,
+          shape = #rect{width=W, height=H},
+          coords = #vector{ x = X, y = Y},
+          rotation = R,
+          connected = Connected
+         } = Player,
+  [{id, Id}, {x, X}, {y, Y}, {width, W}, {height, H}, {rotation, R}, {connected, Connected}].
 

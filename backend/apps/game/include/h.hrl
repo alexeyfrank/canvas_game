@@ -5,8 +5,17 @@
   )
 ).
 
--record(game, { players=[], bullets=[], changed }).
--record(player, { id, pid, shape }).
--record(bullet, { player_id, x, y, velocityX, velocityY  }).
+%% Math
+-record(vector, { x, y }).
+-record(dimension, { width, height }).
 
--record(rect, {x, y, width, height, rotation}).
+%% World
+-record(game, { players=[], bullets=[], changed }).
+
+%% Entities
+-record(player, { id, pid, connected, shape, velocity, coords, rotation }).
+
+%% -record(bullet, { player_id, x, y, velocityX, velocityY  }).
+
+
+-record(rect, {width, height}).
