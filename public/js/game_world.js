@@ -65,6 +65,22 @@ define(function(require) {
   }
 
   World.prototype._updateBullets = function(bullets) {
+    bullets.forEach(function(data) {
+      var bullet = this._state.bullets[data.id];
+
+      if (!bullet) {
+        var bullet = new Entities.Bullet(data);
+        this._view.fgLayer.add(bullet.getView());
+        this._state.bullets[data.id] = bullet;
+      } else if (!data.exist) {
+        var bullet = this._state.bullets[data.id];
+        bullet.getView().remove();
+        delete this._state.bullets[data.id];
+      } else {
+        var bullet = this._state.bullets[data.id];
+        bullet.setData(data);
+      }
+    }.bind(this));
   }
 
   World.prototype.update = function(frame) {

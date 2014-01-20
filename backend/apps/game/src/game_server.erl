@@ -42,7 +42,7 @@ handle_cast({ players_cast, PlayerId, [{<<"action">>, Action}, Data] } = Msg, St
 
 handle_cast({ players_cast, PlayerId, [{<<"action">>, Action}] } = Msg, State) ->
   ?debug_info(Msg),
-  State2 = game_logic:player_action(State, PlayerId, Action),
+  State2 = game_logic:player_action(State, PlayerId, Action, {}),
   {noreply, State2};
 
 handle_cast(Msg, State) ->

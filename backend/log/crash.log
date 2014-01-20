@@ -5660,3 +5660,913 @@ Ranch listener http had connection process started with cowboy_protocol:start_li
 2014-01-20 10:44:21 =ERROR REPORT====
 /vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
 /vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:14:40 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:14:41 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:34: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:14:41 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:14:50 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:15:01 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:15:02 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:34: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:15:02 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:15:06 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:16:43 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:17:15 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:21: Warning: variable 'PlayerId' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:60: Warning: variable 'Req' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:60: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:63: Warning: variable 'Event' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:66: Warning: variable 'Req' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:66: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:70: Warning: variable 'Data' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:70: Warning: variable 'Event' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:0: Recompiled with 1 warnings
+2014-01-20 11:18:02 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:21: Warning: variable 'PlayerId' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:60: Warning: variable 'Req' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:60: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:67: Warning: variable 'Req' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:67: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:70: Warning: variable 'Event' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/tanks/src/handlers/game_handler.erl:0: Recompiled with 1 warnings
+2014-01-20 11:18:36 =ERROR REPORT====
+** Generic server <0.129.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[{player,<<"test1">>,<0.1766.0>,true,{rect,50,50},{vector,0,0},{vector,0,0},0}],[],false}
+** Reason for termination == 
+** {'function not exported',[{game_logic,player_action,[{game,[{player,<<"test1">>,<0.1766.0>,true,{rect,50,50},{vector,0,0},{vector,0,0},0}],[],false},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:18:36 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.129.0>
+    registered_name: []
+    exception exit: {{undef,[{game_logic,player_action,[{game,[{player,<<"test1">>,<0.1766.0>,true,{rect,50,50},{vector,0,0},{vector,0,0},0}],[],false},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 1421801
+  neighbours:
+2014-01-20 11:18:36 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{game_logic,player_action,[{game,[{player,<<"test1">>,<0.1766.0>,true,{rect,50,50},{vector,0,0},{vector,0,0},0}],[],false},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.129.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:18:36 =ERROR REPORT====
+** Generic server <0.1771.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {'function not exported',[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:18:36 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1771.0>
+    registered_name: []
+    exception exit: {{undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3127
+  neighbours:
+2014-01-20 11:18:36 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1771.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:18:37 =ERROR REPORT====
+** Generic server <0.1772.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {'function not exported',[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:18:37 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1772.0>
+    registered_name: []
+    exception exit: {{undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3129
+  neighbours:
+2014-01-20 11:18:37 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1772.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:18:37 =ERROR REPORT====
+** Generic server <0.1773.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {'function not exported',[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:18:37 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1773.0>
+    registered_name: []
+    exception exit: {{undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: [{'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}]
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3133
+  neighbours:
+2014-01-20 11:18:37 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1773.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:18:37 =ERROR REPORT====
+** Generic server <0.1774.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {'function not exported',[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:18:37 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1774.0>
+    registered_name: []
+    exception exit: {{undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3127
+  neighbours:
+2014-01-20 11:18:37 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{game_logic,player_action,[{game,[],[],undefined},<<"test1">>,<<"attack">>],[]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1774.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:19:24 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:20:07 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:20:10 =ERROR REPORT====
+** Generic server <0.1775.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[],[],false}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,56}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:20:10 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1775.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,56}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 11496
+  neighbours:
+2014-01-20 11:20:10 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,56}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1775.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:21:09 =ERROR REPORT====
+** Generic server <0.1991.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"attack">>}]}}
+** When Server state == {game,[],[],false}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,56}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:21:09 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1991.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,56}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 8810
+  neighbours:
+2014-01-20 11:21:09 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,56}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,45}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1991.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:22:47 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:22:48 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:22:48 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:22:55 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:23:05 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:23:06 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:23:06 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:23:10 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:23:22 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"23",58,"22",46,"247"]},{1390,245802,247804},{player,<<"test1">>,<0.683.0>,true,{rect,50,50},{vector,0,0},{vector,10,10},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"23",58,"22",46,"247"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.683.0>,true,{rect,50,50},{vector,0,0},{vector,10,10},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:23:58 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:24:01 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"24",58,"01",46,"503"]},{1390,245841,503958},{player,<<"test1">>,<0.683.0>,true,{rect,50,50},{vector,0,0},{vector,10,10},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"24",58,"01",46,"503"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.683.0>,true,{rect,50,50},{vector,0,0},{vector,10,10},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:09 =ERROR REPORT====
+** Generic server <0.129.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"move">>},{<<"direction">>,<<"down">>}]}}
+** When Server state == {game,[],[{bullet,<<"test1">>,1,{rect,5,5},{vector,0,0},{vector,5,0},true},{bullet,<<"test1">>,1,{rect,5,5},{vector,0,0},{vector,5,0},true}],false}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:09 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.129.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 61513
+  neighbours:
+2014-01-20 11:24:09 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.129.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:09 =ERROR REPORT====
+** Generic server <0.1478.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"move">>},{<<"direction">>,<<"down">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:09 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1478.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3995
+  neighbours:
+2014-01-20 11:24:09 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1478.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:09 =ERROR REPORT====
+** Generic server <0.1479.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"move">>},{<<"direction">>,<<"down">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:09 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1479.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3995
+  neighbours:
+2014-01-20 11:24:09 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1479.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:09 =ERROR REPORT====
+** Generic server <0.1480.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"move">>},{<<"direction">>,<<"down">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:09 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1480.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3995
+  neighbours:
+2014-01-20 11:24:09 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1480.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:10 =ERROR REPORT====
+** Generic server <0.1482.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"move">>},{<<"direction">>,<<"down">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:10 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1482.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3999
+  neighbours:
+2014-01-20 11:24:10 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1482.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:10 =ERROR REPORT====
+** Generic server <0.1483.0> terminating 
+** Last message in was {'$gen_cast',{players_cast,<<"test1">>,[{<<"action">>,<<"move">>},{<<"direction">>,<<"down">>}]}}
+** When Server state == {game,[],[],undefined}
+** Reason for termination == 
+** {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:24:10 =CRASH REPORT====
+  crasher:
+    initial call: game_server:init/1
+    pid: <0.1483.0>
+    registered_name: []
+    exception exit: {{{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [game_sup,<0.127.0>]
+    messages: []
+    links: [<0.128.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3997
+  neighbours:
+2014-01-20 11:24:10 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,false},[{player,handle_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/player.erl"},{line,37}]},{game_logic,player_action,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl"},{line,35}]},{game_server,handle_cast,2,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl"},{line,40}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,604}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.1483.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:10 =SUPERVISOR REPORT====
+     Supervisor: {local,game_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1483.0>},{name,game_server},{mfargs,{game_server,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2014-01-20 11:24:17 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1496.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,websocket_init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,websocket_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,130}]},{cowboy_websocket,handler_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_websocket.erl"},{line,140}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19025>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1496.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},56999}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:3000">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"8wxJq2+RTHBuUnjWDC4RQA==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>}]},{p_headers,[{<<"sec-websocket-extensions">>,[{<<"x-webkit-deflate-frame">>,[]}]},{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_compress,false},{websocket_version,13}]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:17 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1497.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,62}]},{cowboy_handler,handler_init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_handler.erl"},{line,69}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19026>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1497.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57001}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"host">>,<<"localhost:3000">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/event-stream">>},{<<"cache-control">>,<<"no-cache">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>},{<<"referer">>,<<"http://localhost:8000/">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:21 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1507.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,websocket_init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,websocket_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,130}]},{cowboy_websocket,handler_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_websocket.erl"},{line,140}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19030>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1507.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57023}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:3000">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"O37NQfUxhrF+t/lhmp4XaQ==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>}]},{p_headers,[{<<"sec-websocket-extensions">>,[{<<"x-webkit-deflate-frame">>,[]}]},{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_compress,false},{websocket_version,13}]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:21 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1499.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,62}]},{cowboy_handler,handler_init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_handler.erl"},{line,69}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19027>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1499.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57003}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"host">>,<<"localhost:3000">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/event-stream">>},{<<"cache-control">>,<<"no-cache">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>},{<<"referer">>,<<"http://localhost:8000/">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:26 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1517.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,websocket_init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,websocket_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,130}]},{cowboy_websocket,handler_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_websocket.erl"},{line,140}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19032>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1517.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57042}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:3000">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"W59r25tknDq+TKAEZ94zeA==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>}]},{p_headers,[{<<"sec-websocket-extensions">>,[{<<"x-webkit-deflate-frame">>,[]}]},{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_compress,false},{websocket_version,13}]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:26 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1510.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,62}]},{cowboy_handler,handler_init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_handler.erl"},{line,69}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19031>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1510.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57025}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"host">>,<<"localhost:3000">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/event-stream">>},{<<"cache-control">>,<<"no-cache">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>},{<<"referer">>,<<"http://localhost:8000/">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:37 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1540.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,websocket_init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,websocket_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,130}]},{cowboy_websocket,handler_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_websocket.erl"},{line,140}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19034>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1540.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57046}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:3000">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"s40As+z4sNzCIftz9rhU7Q==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>}]},{p_headers,[{<<"sec-websocket-extensions">>,[{<<"x-webkit-deflate-frame">>,[]}]},{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_compress,false},{websocket_version,13}]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:37 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1541.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,62}]},{cowboy_handler,handler_init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_handler.erl"},{line,69}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19035>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1541.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57048}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"host">>,<<"localhost:3000">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/event-stream">>},{<<"cache-control">>,<<"no-cache">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>},{<<"referer">>,<<"http://localhost:8000/">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:40 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1547.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,websocket_init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,websocket_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,130}]},{cowboy_websocket,handler_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_websocket.erl"},{line,140}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19037>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1547.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57069}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:3000">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"XyGbq+8lcSbrUTZqkB2UMg==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>}]},{p_headers,[{<<"sec-websocket-extensions">>,[{<<"x-webkit-deflate-frame">>,[]}]},{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_compress,false},{websocket_version,13}]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:40 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1543.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,62}]},{cowboy_handler,handler_init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_handler.erl"},{line,69}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19036>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1543.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57050}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"host">>,<<"localhost:3000">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/event-stream">>},{<<"cache-control">>,<<"no-cache">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>},{<<"referer">>,<<"http://localhost:8000/">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:51 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1568.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,websocket_init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,websocket_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,130}]},{cowboy_websocket,handler_init,3,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_websocket.erl"},{line,140}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19039>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1568.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57073}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"upgrade">>,<<"websocket">>},{<<"connection">>,<<"Upgrade">>},{<<"host">>,<<"localhost:3000">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"pragma">>,<<"no-cache">>},{<<"cache-control">>,<<"no-cache">>},{<<"sec-websocket-key">>,<<"AUaglXZb/NcZj3KbDlmocg==">>},{<<"sec-websocket-version">>,<<"13">>},{<<"sec-websocket-extensions">>,<<"x-webkit-deflate-frame">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>}]},{p_headers,[{<<"sec-websocket-extensions">>,[{<<"x-webkit-deflate-frame">>,[]}]},{<<"upgrade">>,[<<"websocket">>]},{<<"connection">>,[<<"upgrade">>]}]},{cookies,undefined},{meta,[{websocket_compress,false},{websocket_version,13}]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:24:52 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.1569.0> exit with reason: [{reason,{noproc,{gen_server,call,[undefined,{connect_player,<<"test1">>}]}}},{mfa,{bullet_handler,init,3}},{stacktrace,[{gen_server,call,2,[{file,"gen_server.erl"},{line,180}]},{game_handler,init,4,[{file,"src/handlers/game_handler.erl"},{line,14}]},{bullet_handler,init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/bullet/src/bullet_handler.erl"},{line,62}]},{cowboy_handler,handler_init,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_handler.erl"},{line,69}]},{cowboy_protocol,execute,4,[{file,"/vagrant_data/projects/langs/clojure/simple_game/backend/deps/cowboy/src/cowboy_protocol.erl"},{line,529}]}]},{req,[{socket,#Port<0.19040>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1569.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{10,0,2,2},57075}},{host,<<"localhost">>},{host_info,undefined},{port,3000},{path,<<"/game/test1">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[{id,<<"test1">>}]},{headers,[{<<"host">>,<<"localhost:3000">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/event-stream">>},{<<"cache-control">>,<<"no-cache">>},{<<"origin">>,<<"http://localhost:8000">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36">>},{<<"referer">>,<<"http://localhost:8000/">>},{<<"accept-encoding">>,<<"gzip,deflate,sdch">>},{<<"accept-language">>,<<"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{multipart,undefined},{buffer,<<>>},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[{handler,game_handler}]}]
+2014-01-20 11:25:45 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:25:45 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:25:45 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:25:53 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:26:03 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:26:03 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:26:03 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:26:07 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:26:59 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"26",58,"59",46,"457"]},{1390,246019,457442},{player,<<"test1">>,<0.137.0>,true,{rect,50,50},{vector,0,0},{vector,45,40},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"26",58,"59",46,"457"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.137.0>,true,{rect,50,50},{vector,0,0},{vector,45,40},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:27:58 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:28:54 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:29:30 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{application,game_server_app},{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"29",58,"30",46,"069"]},{1390,246170,69956},{player,<<"test1">>,<0.143.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"29",58,"30",46,"069"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.143.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:29:53 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:29:54 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:29:54 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:30:02 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:30:11 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:20: Warning: variable 'GameState' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/entities/bullet.erl:0: Recompiled with 1 warnings
+2014-01-20 11:30:12 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:14: Warning: variable 'NewBullets' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_logic.erl:0: Recompiled with 1 warnings
+2014-01-20 11:30:12 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:30:15 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:23: Warning: behaviour gen_leader undefined
+/vagrant_data/projects/langs/clojure/simple_game/backend/deps/gproc/src/gproc_dist.erl:0: Recompiled with 1 warnings
+2014-01-20 11:31:15 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:31:38 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"31",58,"38",46,"186"]},{1390,246298,186777},{player,<<"test1">>,<0.1531.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"31",58,"38",46,"186"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1531.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:31:44 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"31",58,"44",46,"243"]},{1390,246304,243518},{player,<<"test1">>,<0.1531.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},110}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"31",58,"44",46,"243"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1531.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},110},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:31:59 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"31",58,"59",46,"560"]},{1390,246319,560817},{player,<<"test1">>,<0.1531.0>,true,{rect,50,50},{vector,0,0},{vector,155,50},-770}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"31",58,"59",46,"560"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1531.0>,true,{rect,50,50},{vector,0,0},{vector,155,50},-770},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:16 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"16",46,"360"]},{1390,246336,360942},{player,<<"test1">>,<0.1604.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"16",46,"360"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1604.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:32 =ERROR REPORT====
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:25: Warning: variable 'From' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:74: Warning: variable 'State' is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:84: Warning: function seconds_from_start/1 is unused
+/vagrant_data/projects/langs/clojure/simple_game/backend/apps/game/src/game_server.erl:0: Recompiled with 1 warnings
+2014-01-20 11:32:35 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"35",46,"762"]},{1390,246355,762695},{player,<<"test1">>,<0.1664.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"35",46,"762"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1664.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:38 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"38",46,"685"]},{1390,246358,685437},{player,<<"test1">>,<0.1664.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"38",46,"685"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1664.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:41 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"41",46,"712"]},{1390,246361,712673},{player,<<"test1">>,<0.1664.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"41",46,"712"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1664.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:44 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"44",46,"607"]},{1390,246364,607437},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"44",46,"607"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:46 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"46",46,"124"]},{1390,246366,124317},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"46",46,"124"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:46 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"46",46,"832"]},{1390,246366,832153},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"46",46,"832"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:47 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"47",46,"470"]},{1390,246367,470798},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"47",46,"470"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:47 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"47",46,"786"]},{1390,246367,786566},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"47",46,"786"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:48 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"48",46,"321"]},{1390,246368,321524},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"48",46,"321"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:49 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"49",46,"138"]},{1390,246369,138464},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"49",46,"138"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:49 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"49",46,"340"]},{1390,246369,340570},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"49",46,"340"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:49 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"49",46,"571"]},{1390,246369,571614},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"49",46,"571"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:50 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"50",46,"007"]},{1390,246370,7207},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"50",46,"007"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:50 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"50",46,"523"]},{1390,246370,523465},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"50",46,"523"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:50 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"50",46,"624"]},{1390,246370,624097},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"50",46,"624"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:50 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"50",46,"724"]},{1390,246370,724238},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"50",46,"724"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:50 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"50",46,"851"]},{1390,246370,851473},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"50",46,"851"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:50 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"50",46,"956"]},{1390,246370,956887},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"50",46,"956"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"057"]},{1390,246371,57127},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"057"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"157"]},{1390,246371,157605},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"157"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"273"]},{1390,246371,273760},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"273"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"374"]},{1390,246371,374417},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"374"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"476"]},{1390,246371,476097},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"476"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"600"]},{1390,246371,600930},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"600"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"706"]},{1390,246371,706698},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"706"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:51 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"51",46,"807"]},{1390,246371,807185},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"51",46,"807"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:53 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"53",46,"558"]},{1390,246373,558997},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"53",46,"558"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"059"]},{1390,246374,59846},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"059"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"161"]},{1390,246374,161391},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"161"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"286"]},{1390,246374,286381},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"286"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"390"]},{1390,246374,390400},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"390"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"491"]},{1390,246374,491555},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"491"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"590"]},{1390,246374,590670},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"590"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"709"]},{1390,246374,709054},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"709"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"811"]},{1390,246374,811314},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"811"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:54 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"54",46,"908"]},{1390,246374,908056},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"54",46,"908"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:55 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"55",46,"008"]},{1390,246375,8493},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"55",46,"008"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:56 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"56",46,"857"]},{1390,246376,857705},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"56",46,"857"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"259"]},{1390,246377,259271},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"259"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"359"]},{1390,246377,359540},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"359"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"479"]},{1390,246377,479704},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"479"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"575"]},{1390,246377,575948},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"575"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"678"]},{1390,246377,678042},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"678"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"778"]},{1390,246377,778296},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"778"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:32:57 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"32",58,"57",46,"895"]},{1390,246377,895139},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"32",58,"57",46,"895"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:33:00 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"33",58,"00",46,"014"]},{1390,246380,14976},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"33",58,"00",46,"014"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:33:01 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"33",58,"01",46,"029"]},{1390,246381,29828},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"33",58,"01",46,"029"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:33:03 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"33",58,"03",46,"662"]},{1390,246383,662261},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"33",58,"03",46,"662"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:33:05 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"33",58,"05",46,"603"]},{1390,246385,603973},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"33",58,"05",46,"603"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:33:06 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"33",58,"06",46,"514"]},{1390,246386,514783},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"33",58,"06",46,"514"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-01-20 11:33:07 =ERROR REPORT====
+** gen_event handler lager_console_backend crashed.
+** Was installed in lager_event
+** Last event was: {log,{lager_msg,[],[{module,player},{function,handle_action},{line,56},{pid,"<0.129.0>"},{node,nonode@nohost}],debug,{["2014",45,"01",45,"20"],["11",58,"33",58,"07",46,"117"]},{1390,246387,117645},{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0}}}
+** When handler state == {state,{mask,255},lager_default_formatter,[time," ",color,"[",severity,"] ",message,"\e[0m\r\n"],[{debug,"\e[0;38m"},{info,"\e[1;37m"},{notice,"\e[1;36m"},{warning,"\e[1;33m"},{error,"\e[1;31m"},{critical,"\e[1;35m"},{alert,"\e[1;44m"},{emergency,"\e[1;41m"}]}
+** Reason == {badarg,[{io,put_chars,[user,unicode,[["11",58,"33",58,"07",46,"117"]," ","\e[0;38m","[","debug","] ",{player,<<"test1">>,<0.1682.0>,true,{rect,50,50},{vector,0,0},{vector,50,50},0},"\e[0m\r\n"]],[]},{lager_console_backend,handle_event,2,[{file,"src/lager_console_backend.erl"},{line,95}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,522}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,504}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,266}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}

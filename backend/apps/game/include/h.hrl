@@ -14,8 +14,7 @@
 
 %% Entities
 -record(player, { id, pid, connected, shape, velocity, coords, rotation }).
-
-%% -record(bullet, { player_id, x, y, velocityX, velocityY  }).
+-record(bullet, { id, player_id, shape, coords, velocity, exist  }).
 
 
 -record(rect, {width, height}).

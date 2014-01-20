@@ -61,10 +61,12 @@ event(<<"get-state">>, Req, State) ->
   game:get_state();
 
 event(Event, Req, State) ->
+  lager:debug(Event),
   {ok, Req, State}.
 
 event(<<"player-event">>, Data, Req, #state{player_id=PlayerId} = State) ->
   game:players_cast(PlayerId, Data);
 
 event(Event, Data, Req, State) ->
+  lager:debug(Data),
   {ok, Req, State}.

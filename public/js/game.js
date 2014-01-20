@@ -37,6 +37,7 @@ define(function(require) {
     key('right', function() { self.sendPlayerEvent({action: 'move', direction: 'right'}); })
     key('q', function() { self.sendPlayerEvent({action: 'rotate', direction: 'left'}); })
     key('w', function() { self.sendPlayerEvent({action: 'rotate', direction: 'right'}); })
+    key('enter', function() { console.log(11); self.sendPlayerEvent({action: 'attack' }); })
   }
 
   Game.prototype.sendPlayerEvent = function(data) {

@@ -10,7 +10,7 @@
 create({Id, Pid}) ->
   Shape = #rect{ width = 50, height = 50},
   Velocity = #vector{ x = 0, y = 0 },
-  Coords = #vector{ x = 0, y = 0 },
+  Coords = #vector{ x = 50, y = 50 },
   #player{id = Id,
           pid = Pid,
           shape = Shape,
@@ -41,7 +41,7 @@ handle_action(Player, <<"move">>, {<<"direction">>, Direction}, _GameState) ->
                <<"up">>    -> Velocity#vector{ y = -5 };
                <<"down">>  -> Velocity#vector{ y = 5 }
               end,
-  Player#player{ velocity = NewVelocity };
+  {Player#player{ velocity = NewVelocity }, _GameState};
 
 
 handle_action(Player, <<"rotate">>, {<<"direction">>, Direction}, _GameState) ->
@@ -50,8 +50,15 @@ handle_action(Player, <<"rotate">>, {<<"direction">>, Direction}, _GameState) ->
                <<"left">>  -> Rotation - 10;
                <<"right">>  -> Rotation + 10
               end,
-  Player#player{ rotation = NewRotation }.
+  {Player#player{ rotation = NewRotation }, _GameState};
 
+handle_action(Player, <<"attack">>, _Data, GameState) ->
+  lager:debug(Player),
+  #player{ id = Id, coords = #vector{x = X, y = Y} } = Player,
+  Bullet = bullet:create({ Id, 1, X, Y }),
+  #game{ bullets = Bullets } = GameState,
+  NewBullets = Bullets ++ [Bullet],
+  {Player, GameState#game{bullets = NewBullets}}.
 
 
 intersect([X1, Y1, W1, H1], [X2, Y2, W2, H2]) ->
