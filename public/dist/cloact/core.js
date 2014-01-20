@@ -50,7 +50,7 @@ cloact.core.unmount_component_at_node = (function unmount_component_at_node(cont
 */
 cloact.core.render_component_to_string = (function() {
 var render_component_to_string = null;
-var render_component_to_string__1 = (function (component){var res = cljs.core.atom.call(null,null);render_component_to_string.call(null,component,(function (p1__12399_SHARP_){return cljs.core.reset_BANG_.call(null,res,p1__12399_SHARP_);
+var render_component_to_string__1 = (function (component){var res = cljs.core.atom.call(null,null);render_component_to_string.call(null,component,(function (p1__12545_SHARP_){return cljs.core.reset_BANG_.call(null,res,p1__12545_SHARP_);
 }));
 return cljs.core.deref.call(null,res);
 });
@@ -141,20 +141,20 @@ var atom = null;
 var atom__1 = (function (x){return cloact.ratom.atom.call(null,x);
 });
 var atom__2 = (function() { 
-var G__12400__delegate = function (x,rest){return cljs.core.apply.call(null,cloact.ratom.atom,x,rest);
+var G__12546__delegate = function (x,rest){return cljs.core.apply.call(null,cloact.ratom.atom,x,rest);
 };
-var G__12400 = function (x,var_args){
+var G__12546 = function (x,var_args){
 var rest = null;if (arguments.length > 1) {
   rest = cljs.core.array_seq(Array.prototype.slice.call(arguments, 1),0);} 
-return G__12400__delegate.call(this,x,rest);};
-G__12400.cljs$lang$maxFixedArity = 1;
-G__12400.cljs$lang$applyTo = (function (arglist__12401){
-var x = cljs.core.first(arglist__12401);
-var rest = cljs.core.rest(arglist__12401);
-return G__12400__delegate(x,rest);
+return G__12546__delegate.call(this,x,rest);};
+G__12546.cljs$lang$maxFixedArity = 1;
+G__12546.cljs$lang$applyTo = (function (arglist__12547){
+var x = cljs.core.first(arglist__12547);
+var rest = cljs.core.rest(arglist__12547);
+return G__12546__delegate(x,rest);
 });
-G__12400.cljs$core$IFn$_invoke$arity$variadic = G__12400__delegate;
-return G__12400;
+G__12546.cljs$core$IFn$_invoke$arity$variadic = G__12546__delegate;
+return G__12546;
 })()
 ;
 atom = function(x,var_args){
@@ -187,32 +187,32 @@ var args = null;if (arguments.length > 1) {
   args = cljs.core.array_seq(Array.prototype.slice.call(arguments, 1),0);} 
 return partial__delegate.call(this,f,args);};
 partial.cljs$lang$maxFixedArity = 1;
-partial.cljs$lang$applyTo = (function (arglist__12402){
-var f = cljs.core.first(arglist__12402);
-var args = cljs.core.rest(arglist__12402);
+partial.cljs$lang$applyTo = (function (arglist__12548){
+var f = cljs.core.first(arglist__12548);
+var args = cljs.core.rest(arglist__12548);
 return partial__delegate(f,args);
 });
 partial.cljs$core$IFn$_invoke$arity$variadic = partial__delegate;
 return partial;
 })()
 ;
-var p1_12403 = cloact.core.partial.call(null,cljs.core.vector,1,2);if(cljs.core._EQ_.call(null,p1_12403.call(null,3),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [1,2,3], null)))
+var p1_12549 = cloact.core.partial.call(null,cljs.core.vector,1,2);if(cljs.core._EQ_.call(null,p1_12549.call(null,3),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [1,2,3], null)))
 {} else
 {throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str(cljs.core.pr_str.call(null,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1640531466,null),cljs.core.list(new cljs.core.Symbol(null,"p1","p1",-1640528006,null),3),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [1,2,3], null))))].join('')));
 }
-if(cljs.core._EQ_.call(null,p1_12403,cloact.core.partial.call(null,cljs.core.vector,1,2)))
+if(cljs.core._EQ_.call(null,p1_12549,cloact.core.partial.call(null,cljs.core.vector,1,2)))
 {} else
 {throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str(cljs.core.pr_str.call(null,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1640531466,null),new cljs.core.Symbol(null,"p1","p1",-1640528006,null),cljs.core.list(new cljs.core.Symbol(null,"partial","partial",1861501754,null),new cljs.core.Symbol(null,"vector","vector",1834048252,null),1,2))))].join('')));
 }
-if(cljs.core.ifn_QMARK_.call(null,p1_12403))
+if(cljs.core.ifn_QMARK_.call(null,p1_12549))
 {} else
 {throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str(cljs.core.pr_str.call(null,cljs.core.list(new cljs.core.Symbol(null,"ifn?","ifn?",-1637301977,null),new cljs.core.Symbol(null,"p1","p1",-1640528006,null))))].join('')));
 }
-if(cljs.core._EQ_.call(null,cloact.core.partial.call(null,cljs.core.vector,1,2),p1_12403))
+if(cljs.core._EQ_.call(null,cloact.core.partial.call(null,cljs.core.vector,1,2),p1_12549))
 {} else
 {throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str(cljs.core.pr_str.call(null,cljs.core.list(new cljs.core.Symbol(null,"=","=",-1640531466,null),cljs.core.list(new cljs.core.Symbol(null,"partial","partial",1861501754,null),new cljs.core.Symbol(null,"vector","vector",1834048252,null),1,2),new cljs.core.Symbol(null,"p1","p1",-1640528006,null))))].join('')));
 }
-if(cljs.core.not_EQ_.call(null,p1_12403,cloact.core.partial.call(null,cljs.core.vector,1,3)))
+if(cljs.core.not_EQ_.call(null,p1_12549,cloact.core.partial.call(null,cljs.core.vector,1,3)))
 {} else
 {throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str(cljs.core.pr_str.call(null,cljs.core.list(new cljs.core.Symbol(null,"not=","not=",-1637144189,null),new cljs.core.Symbol(null,"p1","p1",-1640528006,null),cljs.core.list(new cljs.core.Symbol(null,"partial","partial",1861501754,null),new cljs.core.Symbol(null,"vector","vector",1834048252,null),1,3))))].join('')));
 }

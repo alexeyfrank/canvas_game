@@ -1,6 +1,5 @@
 (ns game.utils)
 
-
 (defn l
   [params]
   (.log js/console params))

@@ -5,7 +5,6 @@
 -export([serialize/1]).
 
 
-
 serialize(#game{ players=Players }) ->
   [
    {players, [serialize_player(Player) || Player <- Players]}
@@ -14,6 +13,6 @@ serialize(#game{ players=Players }) ->
 
 %% Private
 
-serialize_player(#player{id = Id, x = X, y = Y, width=W, height=H}) ->
-  [{id, Id}, {x, X}, {y, Y}, {width, W}, {height, H}].
+serialize_player(#player{id = Id, shape = #rect{ x = X, y = Y, width=W, height=H, rotation = R}}) ->
+  [{id, Id}, {x, X}, {y, Y}, {width, W}, {height, H}, {rotation, R}].
 

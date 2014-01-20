@@ -1,0 +1,24 @@
+// Compiled by ClojureScript 0.0-2138
+goog.provide('game.controls');
+goog.require('cljs.core');
+goog.require('game.utils');
+goog.require('cljs.core.async');
+goog.require('cljs.core.async');
+goog.require('game.utils');
+game.controls.keyboard_handler = (function keyboard_handler(chan,event){return cljs.core.async.put_BANG_.call(null,chan,event);
+});
+game.controls.bind_keyboard_events = (function bind_keyboard_events(chan){game.utils.keymaster.call(null,"left",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"move","move",1017261891),new cljs.core.Keyword(null,"direction","direction",4346280689),new cljs.core.Keyword(null,"left","left",1017222009)], null)], null));
+}));
+game.utils.keymaster.call(null,"right",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"move","move",1017261891),new cljs.core.Keyword(null,"direction","direction",4346280689),new cljs.core.Keyword(null,"right","right",1122416014)], null)], null));
+}));
+game.utils.keymaster.call(null,"up",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"move","move",1017261891),new cljs.core.Keyword(null,"direction","direction",4346280689),new cljs.core.Keyword(null,"up","up",1013907981)], null)], null));
+}));
+game.utils.keymaster.call(null,"down",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"move","move",1017261891),new cljs.core.Keyword(null,"direction","direction",4346280689),new cljs.core.Keyword(null,"down","down",1016993812)], null)], null));
+}));
+game.utils.keymaster.call(null,"q",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"rotate","rotate",4383690957),new cljs.core.Keyword(null,"direction","direction",4346280689),new cljs.core.Keyword(null,"left","left",1017222009)], null)], null));
+}));
+game.utils.keymaster.call(null,"w",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"rotate","rotate",4383690957),new cljs.core.Keyword(null,"direction","direction",4346280689),new cljs.core.Keyword(null,"right","right",1122416014)], null)], null));
+}));
+return game.utils.keymaster.call(null,"enter",(function (){return game.controls.keyboard_handler.call(null,chan,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"event","event",1110795788),new cljs.core.Keyword(null,"player-event","player-event",3955009568),new cljs.core.Keyword(null,"data","data",1016980252),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"action","action",3885920680),new cljs.core.Keyword(null,"attack","attack",3901612474)], null)], null));
+}));
+});

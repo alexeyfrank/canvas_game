@@ -45,11 +45,9 @@ players_cast(CurrentPlayerId, Msg) ->
 
 cast(Msg) ->
   Pid = game_server:get_pid(),
-  lager:debug("GameServer PID: ~p", [Pid]),
   gen_server:cast(Pid, Msg).
 
 call(Msg) ->
   Pid = game_server:get_pid(),
-  lager:debug("GameServer PID: ~p", [Pid]),
   gen_server:call(Pid, Msg).
 

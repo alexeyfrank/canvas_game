@@ -5,5 +5,8 @@
   )
 ).
 
--record(game, { players=[] }).
--record(player, { id, x, y, width, height, pid }).
+-record(game, { players=[], bullets=[], changed }).
+-record(player, { id, pid, shape }).
+-record(bullet, { player_id, x, y, velocityX, velocityY  }).
+
+-record(rect, {x, y, width, height, rotation}).

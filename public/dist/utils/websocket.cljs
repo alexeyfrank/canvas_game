@@ -15,11 +15,12 @@
   (let [ws (create url)]
     (configure ws {:onmessage (fn [e] (put! chan (js->clj (JSON/parse (.-data e)))))
                    :onopen (fn [] (put! chan {"event" "connected"}))
+                   :ondisconnect (fn [] (put! chan {"event" "disconnected"}))
                    })))
 
 (defn send-client-events [ws chan]
   (go-loop []
            (let [event (<! chan)
-                 event-text (JSON/stringify (clj->js event))]
+                 event-text (JSON/stringify (clj->js [event]))]
              (.send ws event-text))
     (recur)))

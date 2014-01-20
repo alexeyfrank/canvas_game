@@ -6,36 +6,42 @@
 -record(state, {player_id}).
 
 -define(debug_info(Msg),
-  lager:debug(
-    "application: ~p#~p/~p (~p) -> ~p ~p~n",
-    tuple_to_list(element(2, process_info(self(), current_function))) ++ [?LINE, self(), Msg]
-  )
-).
+  lager:debug("application: ~p#~p/~p (~p) -> ~p ~p~n",
+    tuple_to_list(element(2, process_info(self(), current_function))) ++ [?LINE, self(), Msg])).
 
 init(_Transport, Req, _Opts, _Active) ->
   {PlayerId, Req1} = cowboy_req:binding(id, Req),
   game:connect_player(PlayerId),
-  lager:debug("new player with id ~p connected to game", [PlayerId]),
   State = #state{player_id=PlayerId},
   {ok, Req1, State}.
 
-stream(<<"ping">>, Req, State) ->
-  {ok, Req, State};
-
 stream(Raw, Req, #state{player_id = PlayerId} = State) ->
-  case Json = jsx:decode(Raw) of
-    [{<<"event">>, EventName}] ->
-      ?debug_info(Json),
-      event(EventName, Req, State);
-    [{<<"event">>, EventName} | [{<<"data">>, Data}]] ->
-      ?debug_info(Json),
-      event(EventName, Data, Req, State)
-  end.
+  Events = jsx:decode(Raw),
+  lists:foreach(fun(Event) ->
+                    case Event of
+                      [{<<"event">>, EventName}] ->
+                        ?debug_info(Event),
+                        event(EventName, Req, State);
+                      [{<<"event">>, EventName} | [{<<"data">>, Data}]] ->
+                        ?debug_info(Event),
+                        event(EventName, Data, Req, State)
+                    end
+                end, Events),
+  {ok, Req, State}.
+
+info({player_connected, PlayerId} = Msg, Req, State) ->
+  ?debug_info(Msg),
+  Reply = [{event, <<"player_connected">>}, {data, PlayerId}],
+  {reply, jsx:encode(Reply), Req, State};
+
+info({player_disconnected, PlayerId} = Msg, Req, State) ->
+  ?debug_info(Msg),
+  Reply = [{event, <<"player_disconnected">>}, {data, PlayerId}],
+  {reply, jsx:encode(Reply), Req, State};
 
 info({sync_state, Game} = Msg, Req, State) ->
   ?debug_info(Msg),
-  lager:debug("Serialized info: ~p", [Game]),
-  Reply = [{event, <<"sync-game">>}, {data, Game}],
+  Reply = [{event, <<"sync_game">>}, {data, Game}],
   {reply, jsx:encode(Reply), Req, State};
 
 info(Msg, Req, State) ->
@@ -48,15 +54,13 @@ terminate(_Req, #state{player_id=PlayerId}) ->
   ok.
 
 event(<<"get-state">>, Req, State) ->
-  game:get_state(),
-  {ok, Req, State};
+  game:get_state();
 
 event(Event, Req, State) ->
   {ok, Req, State}.
 
 event(<<"player-event">>, Data, Req, #state{player_id=PlayerId} = State) ->
-  game:players_cast(PlayerId, Data),
-  {ok, Req, State};
+  game:players_cast(PlayerId, Data);
 
 event(Event, Data, Req, State) ->
   {ok, Req, State}.

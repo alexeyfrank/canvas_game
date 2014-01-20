@@ -7,7 +7,8 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2138"]
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
-                 [cloact "0.1.0"]]
+                 [cloact "0.1.0"]
+                 [org.bodil/pylon "0.3.0"]]
 
   ;; CLJ AND CLJS source code path
   ;; :source-paths ["src/clj" "src/cljs"]
