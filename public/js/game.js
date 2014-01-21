@@ -4,7 +4,7 @@ define(function(require) {
 
   function Game(config) {
     this._config = config;
-    this._net = new Net("ws://localhost:3000/game/" + window.location.hash.slice(1, 10));
+    this._net = new Net("ws://localhost:3000/game/" + config.id);
     this._world = new GameWorld(config);
   }
 
@@ -27,6 +27,10 @@ define(function(require) {
 
   Game.prototype.run = function() {
     this._world.run();
+    console.log(this._config.id)
+    if (this._config.id == 'bot') {
+      this.generatePlayerEvents();
+    }
   }
 
   Game.prototype._bindKeyboadEvents = function() {
@@ -54,6 +58,28 @@ define(function(require) {
     player_disconnected: function(playerId) {
       // this.world.removePlayer(playerId);
     }
+  }
+
+  Game.prototype.generatePlayerEvents = function() {
+    window.moveCounter = 0;
+    setInterval(function () {
+      window.moveCounter++;
+      if (moveCounter < 35) {
+        this.sendPlayerEvent({action: 'move', direction: 'right'});
+      } else if (moveCounter < 70) {
+        this.sendPlayerEvent({action: 'move', direction: 'down'});
+      } else if (moveCounter < 105) {
+        this.sendPlayerEvent({action: 'move', direction: 'left'});
+      } else if (moveCounter < 140){
+        this.sendPlayerEvent({action: 'move', direction: 'up'});
+      } else {
+        moveCounter = 0;
+      }
+    }.bind(this), 100);
+
+    setInterval(function() {
+      this.sendPlayerEvent({action: 'attack'});
+    }.bind(this), 1000);
   }
 
   return Game;

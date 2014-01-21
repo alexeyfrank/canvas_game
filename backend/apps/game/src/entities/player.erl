@@ -54,8 +54,7 @@ handle_action(Player, <<"rotate">>, {<<"direction">>, Direction}, _GameState) ->
 
 handle_action(Player, <<"attack">>, _Data, GameState) ->
   lager:debug(Player),
-  #player{ id = Id, coords = #vector{x = X, y = Y} } = Player,
-  Bullet = bullet:create({ Id, 1, X, Y }),
+  Bullet = bullet:create({ 1, Player }),
   #game{ bullets = Bullets } = GameState,
   NewBullets = Bullets ++ [Bullet],
   {Player, GameState#game{bullets = NewBullets}}.
